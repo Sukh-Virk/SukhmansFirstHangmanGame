@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(102, 207, 111);
+    box-sizing: border-box; /* Ensure padding and border are included in the element's width and height */
+}
+
+/* Title styling */
+#first {
+    color: black;
+    text-align: center; /* Center the title */
+    margin-top: 20px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+/* Hangman post image */
+#hangman-post {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin-top: 30px;
+}
+
+#hangman-img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+/* Combined keyboard buttons container */
+.keyboard-buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping to next line if needed */
+    margin-top: 20px;
+}
+
+/* Keyboard buttons styling */
+.keyboard-buttons-container button {
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+    background-color: plum;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.keyboard-buttons-container button:hover {
+    background-color: orchid;
+}
+
+/* Play Game button */
+.button1 {
+    padding: 20px;
+    font-size: 1rem;
+    background-color: plum;
+    color: black;
+    border-radius: 20px;
+    display: block;
+    margin: 30px auto; /* Center the button and add margin from the top */
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background-color: orchid;
+}
+
+/* Guess counter */
+#guess-counter {
+    font-size: 1.2rem;
+    text-align: center; /* Center the text */
+    margin-top: 20px;
+}
+
+/* Hint */
+#hint {
+    font-size: 1rem;
+    text-align: center; /* Center the text */
+    margin-top: 10px;
+}
+
+/* Letter line container */
+.letter-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Letter line styling */
+.letter-line {
+    gap: 10px;
+}
+
+/* Letter styling */
+.letter {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    font-size: 36px;
+    text-align: center;
+    line-height: 50px;
+}

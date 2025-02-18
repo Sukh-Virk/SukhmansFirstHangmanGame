@@ -1,4 +1,4 @@
-Sukhman's First Simple Hangman 🎩💀
+##Sukhman's First Simple Hangman 🎩💀
 
 Think You Can Guess the Word?
 
@@ -19,3 +19,5 @@ If the letter isn't in the word, you get closer to defeat.
 Win by guessing the full word before running out of chances!
 
 Can you outsmart the hangman, or will you face the inevitable? 👀
+
+check it here https://sukhmanshangman.netlify.app/
